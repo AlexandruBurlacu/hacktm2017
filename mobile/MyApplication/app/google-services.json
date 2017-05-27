@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "487793347271",
+    "firebase_url": "https://sec-5b7d5.firebaseio.com",
+    "project_id": "sec-5b7d5",
+    "storage_bucket": "sec-5b7d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487793347271:android:d122094cb2819935",
+        "android_client_info": {
+          "package_name": "forsec.paxra.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487793347271-v9hrhtqaegttl2j9g9avhgdh9dm33dlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "forsec.paxra.com.myapplication",
+            "certificate_hash": "9164822b1e633f2708f675af1b887975cae8f1de"
+          }
+        },
+        {
+          "client_id": "487793347271-dvbrj2ducpl2rj5ql652nr6v2heifuln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-GF8TpCouEx_cOGz0E_1i1lxJzIBO_dQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487793347271-dvbrj2ducpl2rj5ql652nr6v2heifuln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
