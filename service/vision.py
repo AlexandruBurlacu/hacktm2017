@@ -23,7 +23,7 @@ def areSimilar(face1, face2):
 if __name__ == "__main__":
   init() 
 
-  face1 = "resources/iura1.jpg"
-  face2 = "resources/iura2.jpg"
+  face1 = open("resources/iura1.jpg", "rb")
+  face2 = open("resources/iura2.jpg", "rb")
 
   print(areSimilar(face1, face2))
