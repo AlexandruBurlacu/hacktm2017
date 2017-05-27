@@ -1,1 +1,1 @@
-gunicorn api:__hug_wsgi__
+gunicorn --workers=4 --worker-class=gevent api:__hug_wsgi__

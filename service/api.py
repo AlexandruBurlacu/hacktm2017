@@ -2,5 +2,5 @@ import hug
 
 @hug.post("/isAuthorized") 
 def isAuthorized():
-  pass
+  return "it fuckin works!"
 
