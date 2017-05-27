@@ -1,3 +1,5 @@
 hug
 requests
+gunicorn
+gevent
 
