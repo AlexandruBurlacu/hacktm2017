@@ -46,11 +46,13 @@ Node Server
 - multipart
 - Express
 - fetch
+
 Android app
 - Butterknife
 - Glide
 - Firebase
 - Retrofit
+
 Simulation Module
 - numpy
 - pygame
