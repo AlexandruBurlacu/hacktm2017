@@ -9,8 +9,10 @@ gunicorn==19.7.1
 hug==2.3.0
 idna==2.5
 packaging==16.8
+pyfcm==1.2.9
 pyparsing==2.2.0
 python-mimeparse==1.6.0
 requests==2.16.0
+requests-toolbelt==0.8.0
 six==1.10.0
 urllib3==1.21.1

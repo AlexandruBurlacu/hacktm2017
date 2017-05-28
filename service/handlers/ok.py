@@ -1,8 +1,8 @@
 
 class HandleAuthorized:
+
   def __init__(self):
     pass
 
-  def handle(self):
+  def handle(self, image):
     pass
-
