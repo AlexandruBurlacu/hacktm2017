@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
 
 
 
     <ImageView
         android:id="@+id/img_lock"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_lock"
-        android:layout_centerVertical="true"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/car"
+        android:layout_marginTop="80dp"
         android:layout_centerHorizontal="true" />
 
     <TextView
+        android:id="@+id/text_car"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above='@id/img_lock'
+        android:layout_below='@id/img_lock'
         android:gravity="center"
-        android:textSize="24sp"
-        android:textColor="@android:color/holo_green_dark"
-        android:text="Evertyhing is Okay"/>
+        android:textSize="32sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:text="Your car is secure"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Got it!"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:layout_below="@id/text_car"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_rounded"/>
 
 
 </RelativeLayout>
