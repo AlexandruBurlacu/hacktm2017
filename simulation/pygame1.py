@@ -18,6 +18,6 @@ while (frames <= 2):
 	
 
 import requests
-url = 'http://file.api.wechat.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE'
+url = 'http://10.37.95.16:3000/validate_driver'
 files = {'media': open('photo1.bmp', 'rb')}
-requests.post(url, files=files)
+requests.put(url, files=files)
